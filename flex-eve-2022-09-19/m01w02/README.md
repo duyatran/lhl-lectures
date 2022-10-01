@@ -6,7 +6,7 @@
 - [ ] Callbacks and higher order functions
 - [ ] Anonymous functions
 - [ ] Arrow functions
-- [ ] Arrow functions can't be used as methods
+- [ ] Arrow functions should not be used as methods
 - [ ] Array iteration functions
 
 
@@ -134,7 +134,7 @@ arr.forEach(function(element) {});
 arr.forEach((element) => {});
 ```
 
-### Arrow functions can't be used as methods
+### Arrow functions should not be used as methods
 ```js
 const car = {
     maxFuelLevel: 100,
