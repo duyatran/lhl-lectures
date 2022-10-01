@@ -1,7 +1,7 @@
 # M01W01 - The Dev Workflow
 
 ### Resources
-Code: https://github.com/duyatran/lhl-lectures/tree/master/flex-eve-2022-09-19
+Code: https://github.com/duyatran/lhl-lectures/tree/master/flex-eve-2022-09-19/m01w01
 
 Lecture: https://vimeo.com/753403937/cf3312ece5
 
