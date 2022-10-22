@@ -32,6 +32,7 @@ addDeux(3); // equivalent to calling myFunction()
 
 ### Function calling vs function passing
 - Note that the () is only used when invoking (or calling) a function
+
 ```js
 const addDeux = addTwo; // assigning a function to variable "addDeux"
 ...
