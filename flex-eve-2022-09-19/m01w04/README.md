@@ -3,7 +3,7 @@
 - [X] 1. Callback review
 - [X] 2. Error handling
 - [X] 3. Error handling with callbacks & the "callback hell" problem
-- [X] 3. Promises & error handling with Promises
+- [X] 4. Promises & error handling with Promises
 
 ### Callback review
 ``` js
