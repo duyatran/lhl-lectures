@@ -1,4 +1,4 @@
-# W02D04 - Promises
+# M02W04 - Promises
 ### To Do
 - [X] 1. Callback review
 - [X] 2. Error handling
