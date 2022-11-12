@@ -1,4 +1,4 @@
-### M04W02 - Client-side JavaScript
+### M04W08 - Client-side JavaScript
 
 ### To Do
 - [ ] JavaScript in the Browser
