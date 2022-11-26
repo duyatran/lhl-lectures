@@ -1,7 +1,7 @@
 ## TODO
-[] T3-Q3
-[] Recursion vs. loop
-[] T3-Q4
+- [] T3-Q3
+- [] Recursion vs. loop
+- [] T3-Q4
 
 Recursion vs. loop
 - Recursive functions are shorter, but more unintuitive and so less readable
