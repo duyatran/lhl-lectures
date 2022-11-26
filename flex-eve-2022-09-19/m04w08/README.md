@@ -166,4 +166,4 @@ $('input').focus(focusHandler);
 - [MDN: The DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
 - [MDN: Browser Events](https://developer.mozilla.org/en-US/docs/Web/Events)
 - [What is the `$` in DevTools?](https://thewebivore.com/exactly-wth-is-up-with-in-devtools/)
-- [jQuery Docs](https://jquery.com/)
+- [jQuery Docs](https://jquery.com/) and [jQuery Learning Center](https://learn.jquery.com/using-jquery-core/)
