@@ -71,3 +71,4 @@
 * [Relationship Types](http://etutorials.org/SQL/Database+design+for+mere+mortals/Part+II+The+Design+Process/Chapter+10.+Table+Relationships/Types+of+Relationships/)
 * [diagrams.net](https://app.diagrams.net/)
 * [dbdiagram.io](https://dbdiagram.io/)
+* [Falsehoods Programmers believe about names with examples](https://shinesolutions.com/2018/01/08/falsehoods-programmers-believe-about-names-with-examples/) 
