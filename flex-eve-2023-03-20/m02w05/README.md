@@ -172,7 +172,7 @@ randomPromise
   });
 ```
 
-- Promises help us to avoid the _callback hell_, see the promised-based madlib file: `05-madlib-promises.js`
+- Promises help us to avoid the _callback hell_, compare the promised-based vs. the callback-based version of `fs.readFile` in `03-callback-hell.js` and `05-more-promises.js`
 - Promises also allow us to handle any errors in the _Promise chain_ with a single `.catch()` on the end of the chain
 
 ## Useful links
