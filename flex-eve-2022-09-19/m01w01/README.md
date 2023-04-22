@@ -11,7 +11,6 @@ Lecture: https://vimeo.com/753403937/cf3312ece5
 - [] Logistics
 - [] Tools
 - [] Advice
-- [] Tools
 - [] Exercise
 
 ### Curriculum Overview
