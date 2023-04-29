@@ -45,9 +45,9 @@ DELETE    POST        /books/:id/delete # DELETE specific book
 - Forms are used to transmit user data to servers
 - Forms can make either `GET` or `POST` requests (specified in the form's `method` attribute)
 
-#### GET
+#### Form with method="GET"
 - Is able to send a request with query parameters (right in the URL / address bar)
-- Easy to share / reproduce
+- Easy to share / reproduce: e.g. navigating directly to `https://google.com/search?q=query` is the same thing as entering "query" into Google
 - Appropriate for searches and retrieving resources consistently
 
 ```HTML
@@ -55,9 +55,7 @@ DELETE    POST        /books/:id/delete # DELETE specific book
     <input name="q">
 ```
 
-`https://google.com/search?q=query+parameter+strings`
-
-#### POST
+#### Form with method="POST"
 - Not easily bookmarkable / reproducable
 - Does not show submission values in address bar / URL
 - Appropriate for sign-ins, creating/updating data, etc. => actions you don't want as easily repeated or visible
