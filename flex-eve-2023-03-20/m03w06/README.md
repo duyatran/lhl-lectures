@@ -1,4 +1,7 @@
 # M03W06 - CRUD with Express
+
+## [Github Repo](https://github.com/duyatran/lhl-lectures/tree/master/flex-eve-2023-03-20/m03w06) | [Lecture Recording](https://vimeo.com/822357984/c861d1eb17)
+
 ### To Do
 - [ ] CRUD over HTTP with Express
 - [ ] Render data for the user using EJS templates
