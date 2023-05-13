@@ -1,4 +1,4 @@
-### M04W08 - Client-side JavaScript
+## M04W08 - Client-side JavaScript
 
 ### Links
 - [Lecture recording](https://vimeo.com/826531985/85413f6db1)
@@ -12,7 +12,7 @@
 - [ ] Element creation and DOM manipulation with jQuery
 - [ ] Event handling with jQuery
 
-## The Browser
+### The Browser
  - The Browser has a JavaScript Runtime Environment
  - The Browser has an HTML rendering and interaction Engine
  - The Browser can style rendered pages based on CSS styles
