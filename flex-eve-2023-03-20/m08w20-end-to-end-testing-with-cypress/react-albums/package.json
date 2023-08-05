@@ -26,4 +26,7 @@
     "not op_mini all"
   ],
   "proxy": "https://cors-anywhere.herokuapp.com/",
+  "devDependencies": {
+    "cypress": "^9.7.0"
+  }
 }

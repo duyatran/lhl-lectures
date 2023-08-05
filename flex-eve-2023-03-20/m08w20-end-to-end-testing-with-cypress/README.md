@@ -41,6 +41,12 @@
 npm install --save-dev cypress@9.7.0
 ```
 
+- Note: if you are using WSL2, make sure to update it to the latest version for a smooth installation process. More info [here](https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps)
+```sh
+wsl --update
+wsl --shutdown
+```
+
 - Use the `open` command to start Cypress running
 
 ```bash
@@ -102,4 +108,3 @@ npm run cypress
 ### Useful Links
 - [Cypress Docs](https://docs.cypress.io/api/api/table-of-contents.html)
 - [Cypress Best Practices (Official)](https://docs.cypress.io/guides/references/best-practices.html)
-- [Setting Up Cypress on Ubuntu WSL2](https://gist.github.com/pjobson/6b9fb926c59f58aa73d4efa10fe13654)
