@@ -29,7 +29,7 @@ class ClassBased extends React.Component {
     // });
   }
 
-  // Very similar: useEffect(() => {}, [])
+  // Similar to: useEffect(() => {}, [])
   // Run once (when component has just been mounted)
   // establish a socket connection, initial API call, set up intervals
   componentDidMount() {
@@ -42,7 +42,7 @@ class ClassBased extends React.Component {
     this.setState({ interval });
   }
 
-  // Similar to: useEffect(() => {}, [greeting])
+  // Similar to: useEffect(() => {}, [greeting, anotherKey])
   componentDidUpdate(prevProps, prevState) {
     if (this.state.greeting !== prevState.greeting) {
       // do some logic
@@ -53,13 +53,12 @@ class ClassBased extends React.Component {
     console.log('componentDidUpdate called!')
   }
 
-  // to clean up
+  // to clean up socket connections, intervals
   // similar to useEffect(() => { return ()=>{} }, [greeting])
   componentWillUnmount() {
     console.log("component will unmount");
     clearInterval(this.state.interval);
   }
-
 
   render() {
     const { message } = this.props;
