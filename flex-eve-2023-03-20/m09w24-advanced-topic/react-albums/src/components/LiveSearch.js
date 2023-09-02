@@ -48,6 +48,17 @@ export default function LiveSearch(props) {
 
     prev.current = search.term;
 
+    // To use the proxy set in package.json, we have to use a relative URL here
+    // so that the browser will default to the current host, and sends the
+    // request to http://localhost:8765/random-d.uk/api/v2/random, which will be
+    // proxied to https://cors-anywhere.herokuapp.com/random-d.uk/api/v2/random
+    // as we wanted.
+    // Note the `x-requested-with` header that cors-anywhere requires.
+    axios.get(
+      '/random-d.uk/api/v2/random', { headers: { 'x-requested-with': 'axios'} }
+    )
+    .then(response => console.log("HTTP status:", response.status))
+
     axios
       .get(
         `https://itunes.apple.com/search?term=${search.term}&country=CA&media=music&entity=album&attribute=artistTerm`
