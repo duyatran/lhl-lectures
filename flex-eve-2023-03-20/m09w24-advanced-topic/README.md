@@ -1,8 +1,8 @@
 # M09W24 - Web Dev Portpourri (Security Edition)
 
 ## To Do
-[] CORS - Cross Origin Request Sharing
-[] Real-world authentication & authorization
+- [ ] CORS - Cross Origin Request Sharing
+- [ ] Real-world authentication & authorization
 
 ## CORS
 - **Browser**'s security policy that allows servers to specify behavior in response to cross-origin requests
